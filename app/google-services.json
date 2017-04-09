@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "961783845002",
+    "firebase_url": "https://producthunt-dd757.firebaseio.com",
+    "project_id": "producthunt-dd757",
+    "storage_bucket": "producthunt-dd757.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961783845002:android:06899c2d8a507ce2",
+        "android_client_info": {
+          "package_name": "com.example.sarabjeet.producthunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961783845002-q7sp32r0v9i79bg6hbcfrqh5m1m2iber.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sarabjeet.producthunt",
+            "certificate_hash": "a4bf513ab18a25487729c4ac9f82ffcd9bd317ac"
+          }
+        },
+        {
+          "client_id": "961783845002-gim2mvaa2lo9rvb264ncd4hlea0ee9uj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ-BVYpZtg7KGs7DAob5fRKojijUYfDlI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961783845002-gim2mvaa2lo9rvb264ncd4hlea0ee9uj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
