@@ -30,6 +30,7 @@ public class ProductDbHelper extends SQLiteOpenHelper {
                 " (" + ProductData.COLUMN_ID + " TEXT NOT NULL, " +
                 ProductData.COLUMN_PROD_NAME + " TEXT NOT NULL, " +
                 ProductData.COLUMN_PROD_DESC + " TEXT NOT NULL, " +
+                ProductData.COLUMN_PROD_CATERGORY + " TEXT NOT NULL, " +
                 ProductData.COLUMN_PROD_IMG + " TEXT NOT NULL" + ");";
 
         db.execSQL(SQL_CREATE_PROD_TABLE);
