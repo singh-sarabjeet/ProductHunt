@@ -19,6 +19,7 @@ public class ProductDbContract {
 
 
     public static final class ProductData implements BaseColumns{
+        public static final Uri URI = BASE_URI.buildUpon().appendPath(PATH_QUOTE).build();
         public static final String TABLE_NAME = "products";
         public static final String COLUMN_PROD_NAME = "name";
         public static final String COLUMN_PROD_DESC = "description";
