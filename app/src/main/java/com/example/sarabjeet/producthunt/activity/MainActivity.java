@@ -1,7 +1,9 @@
-package com.example.sarabjeet.producthunt;
+package com.example.sarabjeet.producthunt.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.sarabjeet.producthunt.R;
 import com.twitter.sdk.android.Twitter;
 import com.twitter.sdk.android.core.TwitterAuthConfig;
 import io.fabric.sdk.android.Fabric;

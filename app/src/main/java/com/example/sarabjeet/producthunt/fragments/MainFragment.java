@@ -1,4 +1,4 @@
-package com.example.sarabjeet.producthunt;
+package com.example.sarabjeet.producthunt.fragments;
 
 import android.app.Fragment;
 import android.content.Intent;
@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.sarabjeet.producthunt.*;
+import com.example.sarabjeet.producthunt.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthCredential;
@@ -41,7 +43,7 @@ public class MainFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         mAuth = FirebaseAuth.getInstance();
-        TwitterAuthConfig authConfig = new TwitterAuthConfig(getString(R.string.twitter_consumer_key), getString(R.string.twitter_consumer_secret));
+        TwitterAuthConfig authConfig = new TwitterAuthConfig(getString(com.example.sarabjeet.producthunt.R.string.twitter_consumer_key), getString(R.string.twitter_consumer_secret));
         Fabric.with(getActivity(), new Twitter(authConfig));
         mAuthListener = new FirebaseAuth.AuthStateListener() {
 
