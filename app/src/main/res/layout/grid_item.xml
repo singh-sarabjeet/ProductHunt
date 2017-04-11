@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/grid_item_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/prod_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:padding="@dimen/prod_item_image_padding"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/prod_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/prod_item_text_height"
+            android:layout_gravity="bottom"
+            android:background="@color/translucent_black"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:padding="@dimen/prod_item_text_padding"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_small" />
+    </android.support.v7.widget.CardView>
+</LinearLayout>
